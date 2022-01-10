@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Modelo</title>
+</head>
+
+<body>
+
+  <section class="container">
+
+  <h1>Gerador de senhas</h1>
+
+  <div class="senha-gerada mt-4"></div>
+    
+
+    <div class="form-group">
+      <div class="form-number">
+        <input type="number" value="20" id="" min="1" max="50" class="qtd-caracteres">
+        <label  for="">Quantidade de caracteres</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input chk-maiusculas"  id="">
+        <label class="form-check-label" for="">Adicionar maiúsculas</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input chk-minusculas"  id="">
+        <label class="form-check-label" for="">Adicionar menúscuas</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input chk-numeros"  id="">
+        <label class="form-check-label" for="">Adicionar números</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input chk-simbolos"  id="">
+        <label class="form-check-label" for="">Adicionar símbolos</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Gerar</button>
+    </div>
+
+    
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
