@@ -42,7 +42,9 @@ export default function geraSenha(qtd, maiusculas, minusculas, numeros, simbolos
 
 
 ```
+
 <h1>formGeraSenha.js</h1>
+
 ```
 import geraSenha from "./geradores";
 
@@ -55,14 +57,14 @@ const chkSimbolos = document.querySelector('.chk-simbolos');
 const gerarSenha = document.querySelector('.btn');
 
 
-//acesso pela tecla enter
+
 export default () => {
     document.addEventListener('keyup', () => {
         
     senhaGerada.innerHTML = gera();
     });
 }
-//evento de click
+
 export default  () => {
     gerarSenha.addEventListener('click', () => {
         senhaGerada.innerHTML = gera();
@@ -88,6 +90,7 @@ function gera() {
 
 ```
 <h1>webpack.config.js</h1>
+
 ```
 const path = require('path'); // CommonJS
 
@@ -115,7 +118,6 @@ module.exports = {
   },
   devtool: 'source-map'
 };
-
 
 ```
 
