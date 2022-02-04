@@ -11,7 +11,7 @@
 
 <h1>Geadores.js</h1>
 ```
-
+```
 //verifica um número aleatório.
 const rand = (min, max) => Math.floor(Math.random() * (max - min) + min);
 /*é declarada uma constante para verificar O método  String.fromCharCode()retorna uma string criada para usar uma sequência específica de valores Unicode. ao final, é utilizado a função rand() no qual será gerado um número aleatório da tabela ASCII*/
@@ -41,7 +41,7 @@ export default function geraSenha(qtd, maiusculas, minusculas, numeros, simbolos
 }
 
 
-
+```
 ```
 
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
