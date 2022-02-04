@@ -9,41 +9,6 @@
 
 ![gerador](https://user-images.githubusercontent.com/60278232/152543011-f6296206-f775-4476-921b-c10737b68fba.png)
 
-<h1>index.html</>
-    
-    ```
-       <h1>Gerador de senhas</h1>
-
-      <div class="senha-gerada mt-4"></div>
-    
-
-    <div class="form-group">
-      <div class="form-number">
-        <input type="number" value="20" id="qtd" min="1" max="50" width="30px" class="qtd-caracteres">
-        <label  for="">Quantidade de caracteres</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input chk-maiusculas"  id="">
-        <label class="form-check-label" for="">Adicionar maiúsculas</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input chk-minusculas"  id="">
-        <label class="form-check-label" for="">Adicionar menúscuas</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input chk-numeros"  id="">
-        <label class="form-check-label" for="">Adicionar números</label>
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input chk-simbolos"  id="">
-        <label class="form-check-label" for="">Adicionar símbolos</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Gerar</button>
-    </div>
-
-    <script src="./assets/js/bundle.js"></script>
-    
-    ```
 
 <h1>Geadores.js</h1>
 
